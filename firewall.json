@@ -3,22 +3,27 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "firewallName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue"="azfw"
         },
         "virtualNetworkName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue"="vnet"
         },
         "firewallPublicIpAddressName": {
             "type": "string",
+            "defaultValue"="firewall-ip"
             "metadata": {
                 "description": "description"
             }
         },
         "firewallPublicIpAddress": {
-            "type": "string"
+            "type": "string",
+            "defaultValue":"10.0.0.0/16"
         },
         "ingressControllerIpAddress": {
-            "type": "string"
+            "type": "string",
+            "defaultValue"="10.1.1.100"
         }
     },
     "functions": [],
