@@ -4,15 +4,15 @@
     "parameters": {
         "firewallName": {
             "type": "string",
-            "defaultValue"="azfw"
+            "defaultValue":"azfw"
         },
         "virtualNetworkName": {
             "type": "string",
-            "defaultValue"="vnet"
+            "defaultValue":"vnet"
         },
         "firewallPublicIpAddressName": {
             "type": "string",
-            "defaultValue"="firewall-ip"
+            "defaultValue":"firewall-ip"
             "metadata": {
                 "description": "description"
             }
@@ -23,7 +23,7 @@
         },
         "ingressControllerIpAddress": {
             "type": "string",
-            "defaultValue"="10.1.1.100"
+            "defaultValue":"10.1.1.100"
         }
     },
     "functions": [],
