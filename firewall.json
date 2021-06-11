@@ -13,9 +13,7 @@
         "firewallPublicIpAddressName": {
             "type": "string",
             "defaultValue":"firewall-ip"
-            "metadata": {
-                "description": "description"
-            }
+            
         },
         "firewallPublicIpAddress": {
             "type": "string",
