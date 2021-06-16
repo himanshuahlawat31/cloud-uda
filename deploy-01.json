@@ -94,7 +94,7 @@
         },
         "sqlAdminPassword": {
             "type": "securestring",
-            "defaultValue":"azuresecurity123"
+            "defaultValue":"Password.1!!"
         }
     },
     "functions": [],
