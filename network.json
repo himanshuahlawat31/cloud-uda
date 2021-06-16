@@ -32,7 +32,7 @@
         },
         "dnsZoneName": {
             "type": "string",
-            "defaultValue": "udacity"
+            "defaultValue": "udacity.com"
         }
     },
     "functions": [],
