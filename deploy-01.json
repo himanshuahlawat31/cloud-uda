@@ -4,21 +4,18 @@
     "parameters": {
         "aksSubnetName": {
             "type": "string",
-            "defaultValue": "aks",
             "metadata": {
                 "description": "Name of the subnet for aks"
             }
         },
         "aksClusterName": {
             "type": "string",
-            "defaultValue": "azsecurity",
             "metadata": {
                 "description": "Name of the aks cluster"
             }
         },
         "kubernetesVersion": {
             "type": "string",
-            "defaultValue": "1.19.6",
             "metadata": {
                 "description": "Version of kubernetes"
             }
@@ -40,7 +37,8 @@
             "defaultValue": "Standard_DS2_v2"
         },
         "virtualNetworkName": {
-            "type": "string"
+            "type": "string",
+            "defaultValue": "vnet"
         },
         "frontDoorName": {
             "type": "string",
@@ -91,10 +89,12 @@
             "type": "string"
         },
         "adminWorkStationPassword": {
-            "type": "securestring"
+            "type": "securestring",
+            "defaultValue": "azuresecurity123"
         },
         "sqlAdminPassword": {
-            "type": "securestring"
+            "type": "securestring",
+            "defaultValue":"azuresecurity123"
         }
     },
     "functions": [],
