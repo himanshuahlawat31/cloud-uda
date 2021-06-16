@@ -1,0 +1,13 @@
+{
+  "Name": "Spektra udacity Rbac",
+  "Id": null,
+  "IsCustom": true,
+  "Description": "Spektra Training Custom Role.",
+  "Actions": [
+ 
+    "Microsoft.MarketplaceOrdering/offerTypes/publishers/offers/plans/agreements/read"
+  ],
+  "NotActions": [
+
+  ]
+}
