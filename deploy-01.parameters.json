@@ -2,21 +2,25 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
-    "firewallName": {
-      "value": "azfw"
+    "aksSubnetName": {
+      "value": "aks"
     },
-    "virtualNetworkName": {
-      "value": "vnet"
+    "aksClusterName": {
+      "value": "azsecurity"
     },
-    "firewallPublicIpAddressName": {
-      "value": "azfw-ip"
+    "kubernetesVersion": {
+      "value": "1.19.6"
     },
-    "ingressControllerIpAddress": {
-      "value": "10.1.1.100"
+    "aksSpnClientId": {
+      "value": "GET-SPN-ID"
+    },
+    
+    "aksSpnClientSecret": {
+      "value": "GET-SPN-SECRET"
     },
     
     "firewallPublicIpAddress": {
-      "value": "GET-IP"
+      "value": "GET-FIREWALL"
     }
     
 
